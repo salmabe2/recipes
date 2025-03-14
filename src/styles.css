@@ -1,2 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
-@import "tailwindcss"
+@import 'tailwindcss';
+
+@theme static {
+	--color-base-light: #e6f4ee;
+	--color-base-light-rgb: 230, 244, 238;
+	--color-base-dark: #363e3a;
+	--color-base-dark-rgb: 54, 62, 58;
+
+	--color-sea: #9bc4cb;
+	--color-sea-rgb: 155, 196, 203;
+	--color-sea-tint: #bcd7dc;
+	--color-sea-shade: #657e82;
+	--color-sea-tone: #93adb1;
+
+	--color-teagreen: #dbefbc;
+	--color-teagreen-rgb: 219, 239, 188;
+	--color-teagreen-tint: #e7f4d2;
+	--color-teagreen-shade: #8c9879;
+	--color-teagreen-tone: #bcc9a8;
+
+	--color-ebony: #5f634f;
+	--color-ebony-rgb: 95, 99, 79;
+	--color-ebony-tint: #919486;
+	--color-ebony-shade: #404236;
+	--color-ebony-tone: #6a6d5f;
+
+	--spacing-1: var(--spacing);
+	--spacing-2: calc(var(--spacing) * 2);
+	--spacing-3: calc(var(--spacing) * 3);
+	--spacing-4: calc(var(--spacing) * 4);
+	--spacing-5: calc(var(--spacing) * 5);
+	--spacing-6: calc(var(--spacing) * 6);
+	--spacing-7: calc(var(--spacing) * 7);
+	--spacing-8: calc(var(--spacing) * 8);
+	--spacing-9: calc(var(--spacing) * 9);
+}
