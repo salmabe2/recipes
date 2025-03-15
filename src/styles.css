@@ -34,4 +34,7 @@
 	--spacing-7: calc(var(--spacing) * 7);
 	--spacing-8: calc(var(--spacing) * 8);
 	--spacing-9: calc(var(--spacing) * 9);
+
+	--breakpoint-md: 48rem; /* 768px */
+	--breakpoint-xl: 80rem; /* 1280px */
 }

@@ -1,0 +1,56 @@
+<nav class="header">
+	<div class="header__inner">
+		<a
+			href="https://flowbite.com/"
+			class="header__logo space-x-3 rtl:space-x-reverse">
+			<img
+				src="https://flowbite.com/docs/images/logo.svg"
+				class="h-8"
+				alt="Flowbite Logo" />
+			<span
+				class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+				Yumly
+			</span>
+		</a>
+		<button
+			data-collapse-toggle="navbar-default"
+			type="button"
+			class="header__button"
+			aria-controls="navbar-default"
+			aria-expanded="false"
+			(click)="toggleResponsiveMenu()">
+			<span class="sr-only">Open main menu</span>
+			<svg
+				class="w-5 h-5"
+				aria-hidden="true"
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 17 14">
+				<path
+					stroke="currentColor"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M1 1h15M1 7h15M1 13h15" />
+			</svg>
+		</button>
+		<div
+			class="header__menu"
+			[class.header__menu--show]="displayResponsiveMenu()">
+			<ul class="menu__links md:space-x-8 rtl:space-x-reverse">
+				<li class="menu__link menu__link--active">
+					<a href="#">Home</a>
+				</li>
+				<li class="menu__link">
+					<a href="#">Recipe Index</a>
+				</li>
+				<li class="menu__link">
+					<a href="#">Categories</a>
+				</li>
+				<li class="menu__link">
+					<a href="#">About</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
